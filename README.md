@@ -67,3 +67,6 @@ pnpm i -D eslint-plugin-simple-import-sort
 
 Para trabalharmos com as rotas dentro de nosso projeto, vamos instalar o bom e velho react router dom:
 pnpm i react-router-dom localforage match-sorter sort-by
+
+Após instalar e configurar as rotas, antes de trabalharmos com algumas outras coisas , vamos instalar mais um pacote para alterarmos as metatags do react
+pnpm i react-helmet-async
