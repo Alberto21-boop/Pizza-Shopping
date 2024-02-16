@@ -52,3 +52,18 @@ Devido estarmos trabalhando com shadcn, iremos baixar apenas os components que i
 trabalhar, ou seja, é só baixar os components para a nossa aplicação , e neste caso
 vamos instalar o botão:
 pnpm dlx shadcn-ui@latest add button
+
+
+Uma vez feito isso , chegou a hora de instalar o ESLint com o seguinte comando:
+pnpm i eslint @rocketseat/eslint-config -D
+
+
+Pos istalação do ESLint, vamos instalar o Prettie:
+pnpm i -D prettier-plugin-tailwindcss
+
+
+E para organizar os imports de nossa aplicação, vamos instalar o seguinte plugn:
+pnpm i -D eslint-plugin-simple-import-sort
+
+Para trabalharmos com as rotas dentro de nosso projeto, vamos instalar o bom e velho react router dom:
+pnpm i react-router-dom localforage match-sorter sort-by
