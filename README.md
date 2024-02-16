@@ -74,3 +74,6 @@ pnpm i react-helmet-async
 Depois de codar um pouco, vamos adicionar um input no component sign-in, e por isso vamos inatalar o seguinte pacote do shadcn:
 pnpm dlx shadcn-ui@latest add input label
 
+Agora é importante instalarmos a biblioteca para os formularios, e com o zod para a validação e transformação de dados com o seguinte comando:
+pnpm i react-hook-form zod @hookform/resolvers
+
