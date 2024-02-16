@@ -70,3 +70,7 @@ pnpm i react-router-dom localforage match-sorter sort-by
 
 Após instalar e configurar as rotas, antes de trabalharmos com algumas outras coisas , vamos instalar mais um pacote para alterarmos as metatags do react
 pnpm i react-helmet-async
+
+Depois de codar um pouco, vamos adicionar um input no component sign-in, e por isso vamos inatalar o seguinte pacote do shadcn:
+pnpm dlx shadcn-ui@latest add input label
+
