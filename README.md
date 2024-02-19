@@ -77,3 +77,8 @@ pnpm dlx shadcn-ui@latest add input label
 Agora é importante instalarmos a biblioteca para os formularios, e com o zod para a validação e transformação de dados com o seguinte comando:
 pnpm i react-hook-form zod @hookform/resolvers
 
+E depois iremos instalar uma biblioteca para os toasts de nossa aplicação, é muito 
+legal trabalhar com o sonner, toast simples e rapido.
+pnpm i sonner
+
+
