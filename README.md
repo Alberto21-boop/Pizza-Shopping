@@ -84,5 +84,6 @@ E depois iremos instalar uma biblioteca para os toasts de nossa aplicação, é 
 legal trabalhar com o sonner, toast simples e rapido.
 pnpm i sonner
 
-teste
+E depois iremos instalar um separator, uma linha para quiar uma divisoria
+pnpm dlx shadcn-ui@latest add separator
 
