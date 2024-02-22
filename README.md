@@ -87,3 +87,9 @@ pnpm i sonner
 E depois iremos instalar um separator, uma linha para quiar uma divisoria
 pnpm dlx shadcn-ui@latest add separator
 
+Depois de criarmos os arquivos da pasta theme, iremos instalar a dependencia dropdown-menu
+para que o theme-toggle funcione corretamente da seguinte forma:
+pnpm dlx shadcn-ui@latest add dropdown-menu
+
+Quando for fazer o componente order, será necessario isntalar o table para tarzer um estilo padrão para as tabelas de nossa aplicação:
+pnpm dlx shadcn-ui@latest add table

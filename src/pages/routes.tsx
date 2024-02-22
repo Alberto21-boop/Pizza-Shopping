@@ -4,6 +4,7 @@ import { SignIn } from './auth/sign-in'
 import { AppLayout } from './_layouts/app'
 import { AuthLayout } from './_layouts/auth'
 import { SignUp } from './auth/sign-up'
+import { Orders } from './app/orders/orders'
 
 export const router = createBrowserRouter([
     {
@@ -11,6 +12,7 @@ export const router = createBrowserRouter([
         element: <AppLayout />,
         children: [
             { path: '/', element: <Dashboard /> },
+            { path: '/orders', element: <Orders /> },
         ]
     },
 
