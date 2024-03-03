@@ -93,3 +93,6 @@ pnpm dlx shadcn-ui@latest add dropdown-menu
 
 Quando for fazer o componente order, será necessario isntalar o table para tarzer um estilo padrão para as tabelas de nossa aplicação:
 pnpm dlx shadcn-ui@latest add table
+
+Para adicionarmos um filtro por status , iremos ainstalar a seguinte biblioteca em nossa aplicação
+pnpm dlx shadcn-ui@latest add select
