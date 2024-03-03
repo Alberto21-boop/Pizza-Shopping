@@ -96,3 +96,6 @@ pnpm dlx shadcn-ui@latest add table
 
 Para adicionarmos um filtro por status , iremos ainstalar a seguinte biblioteca em nossa aplicação
 pnpm dlx shadcn-ui@latest add select
+
+E para darmos funcionalidade ao botão de detalhes do pedido, vamos instalar um modal:
+pnpm dlx shadcn-ui@latest add dialog
