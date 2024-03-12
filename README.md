@@ -102,3 +102,6 @@ pnpm dlx shadcn-ui@latest add dialog
 
 Depois de fazermos o passo acima, iremos instalar os cards para a tela de Dashboard com este comando:
 pnpm dlx shadcn-ui@latest add card
+
+Para construção do nosso grafico iremos instalar a seguinte biblioteca:
+pnpm i recharts
