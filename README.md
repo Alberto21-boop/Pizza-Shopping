@@ -99,3 +99,6 @@ pnpm dlx shadcn-ui@latest add select
 
 E para darmos funcionalidade ao botão de detalhes do pedido, vamos instalar um modal:
 pnpm dlx shadcn-ui@latest add dialog
+
+Depois de fazermos o passo acima, iremos instalar os cards para a tela de Dashboard com este comando:
+pnpm dlx shadcn-ui@latest add card
