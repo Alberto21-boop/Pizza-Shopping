@@ -105,3 +105,13 @@ pnpm dlx shadcn-ui@latest add card
 
 Para construção do nosso grafico iremos instalar a seguinte biblioteca:
 pnpm i recharts
+
+Agora vamos fazer o que vai ligar o nosso front ao nosso back da seguinte maneira:
+pnpm i axios
+
+Para complementar o axios em nossa ligação com o back, vamos instalar o zod também
+para que assim possamos fazer uma validação das variaveis ambientes antes de utilizarmos as variaveis ambientes da seguinte forma:
+pnpm i zod
+
+Feito isso, vamos instalar mais uma ferramenta, para facilitar requisões entre back e front atravez de seus hooks e também para memorização entre as requisições:
+pnpm i @tanstack/react-query
