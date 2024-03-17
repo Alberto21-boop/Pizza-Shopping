@@ -1,6 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Value } from '@radix-ui/react-select';
-import { ResponsiveContainer, LineChart, XAxis, YAxis, CartesianGrid, Line, Tooltip } from 'recharts'
+import { ResponsiveContainer, LineChart, XAxis, YAxis, CartesianGrid, Line } from 'recharts'
 import colors from 'tailwindcss/colors'
 
 const data = [
@@ -22,7 +21,7 @@ export function RevenueChart() {
                     <div className='space-y-1'>
                         <CardTitle className='text-base font-medium'>
                             Receita no período
-                            </CardTitle>
+                        </CardTitle>
                         <CardDescription>Receita diária no periodo</CardDescription>
                     </div>
                 </CardHeader>
@@ -38,18 +37,20 @@ export function RevenueChart() {
                                 axisLine={false}
                                 tickLine={false}
                                 width={80}
-                                tickFormatter={(value: number) => 
-                                value.toLocaleString('pt-BR', { 
-                                  style: 'currency', 
-                                  currency: 'BLR', 
-                                  })} />
+                                tickFormatter={(value: number) =>
+                                    value.toLocaleString('pt-BR', {
+                                        style: 'currency',
+                                        currency: 'BLR',
+                                    })} />
 
-
-                            <Line type='linear' 
-                            strokeWidth={2} 
-                            dataKey='revenue' 
-                            stroke={colors.violet['500']} 
+                            <CartesianGrid vertical={false} className='stroke-muted' />
+                            <Line type='linear'
+                                strokeWidth={2}
+                                dataKey='revenue'
+                                stroke={colors.violet['500']}
                             />
+
+
                         </LineChart>
                     </ResponsiveContainer>
 
